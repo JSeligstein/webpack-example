@@ -5,7 +5,7 @@ var Header = require('webpack-example').ui.Header;
 
 var App = React.createClass({
     render: function() {
-        return <Header title="Hello World!" />;
+        return (<Header title="Hello World!" />);
     }
 });
 
